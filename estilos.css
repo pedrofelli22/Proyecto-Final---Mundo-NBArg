@@ -12,15 +12,11 @@ body {
 .seccion, .seccion2 {
   background-color: lightblue;
   height: 50px;
-  width: 25%;
+  width: 30%;
   margin: auto;
   text-align: center;
   color: white;
   font-size: 30px;
-}
-
-.seccion2 {
-  height: 100px;
 }
 
 @media only screen and (min-width: 1025px) {
@@ -161,7 +157,6 @@ body {
   .enlaces--e1 a {
     text-decoration: none;
     color: white;
-    font-size: 25px;
     font-weight: 600;
     text-align: center;
   }
@@ -169,6 +164,8 @@ body {
     background: #000000c4;
     -webkit-box-shadow: -10px 0 0 0 #000000c4, 10px 0 0 0 #000000c4;
             box-shadow: -10px 0 0 0 #000000c4, 10px 0 0 0 #000000c4;
+    font-size: 23px;
+    font-weight: 600;
   }
   .enlaces--e1 a img {
     height: 200px;
@@ -177,7 +174,6 @@ body {
   .enlaces--e2 a {
     text-decoration: none;
     color: white;
-    font-size: 25px;
     font-weight: 600;
     text-align: center;
   }
@@ -185,6 +181,8 @@ body {
     background: #000000c4;
     -webkit-box-shadow: -10px 0 0 0 #000000c4, 10px 0 0 0 #000000c4;
             box-shadow: -10px 0 0 0 #000000c4, 10px 0 0 0 #000000c4;
+    font-size: 23px;
+    font-weight: 600;
   }
   .enlaces--e2 a img {
     height: 200px;
@@ -193,7 +191,6 @@ body {
   .enlaces--e3 a {
     text-decoration: none;
     color: white;
-    font-size: 25px;
     font-weight: 600;
     text-align: center;
   }
@@ -201,6 +198,8 @@ body {
     background: #000000c4;
     -webkit-box-shadow: -10px 0 0 0 #000000c4, 10px 0 0 0 #000000c4;
             box-shadow: -10px 0 0 0 #000000c4, 10px 0 0 0 #000000c4;
+    font-size: 23px;
+    font-weight: 600;
   }
   .enlaces--e3 a img {
     height: 200px;
@@ -209,7 +208,6 @@ body {
   .enlaces--e4 a {
     text-decoration: none;
     color: white;
-    font-size: 25px;
     font-weight: 600;
     text-align: center;
   }
@@ -217,15 +215,16 @@ body {
     background: #000000c4;
     -webkit-box-shadow: -10px 0 0 0 #000000c4, 10px 0 0 0 #000000c4;
             box-shadow: -10px 0 0 0 #000000c4, 10px 0 0 0 #000000c4;
+    font-size: 23px;
+    font-weight: 600;
   }
   .enlaces--e4 a img {
-    height: 180px;
+    height: 190px;
     width: 330px;
   }
   .enlaces--e5 a {
     text-decoration: none;
     color: white;
-    font-size: 25px;
     font-weight: 600;
     text-align: center;
   }
@@ -233,15 +232,16 @@ body {
     background: #000000c4;
     -webkit-box-shadow: -10px 0 0 0 #000000c4, 10px 0 0 0 #000000c4;
             box-shadow: -10px 0 0 0 #000000c4, 10px 0 0 0 #000000c4;
+    font-size: 23px;
+    font-weight: 600;
   }
   .enlaces--e5 a img {
-    height: 180px;
+    height: 190px;
     width: 330px;
   }
   .enlaces--e6 a {
     text-decoration: none;
     color: white;
-    font-size: 25px;
     font-weight: 600;
     text-align: center;
   }
@@ -249,9 +249,11 @@ body {
     background: #000000c4;
     -webkit-box-shadow: -10px 0 0 0 #000000c4, 10px 0 0 0 #000000c4;
             box-shadow: -10px 0 0 0 #000000c4, 10px 0 0 0 #000000c4;
+    font-size: 23px;
+    font-weight: 600;
   }
   .enlaces--e6 a img {
-    height: 180px;
+    height: 190px;
     width: 330px;
   }
   /*---------------------MAPA FINAL---------------------------------------------*/
@@ -389,7 +391,7 @@ body {
 
 /*-------------------------------------------------------------------------------------------------------------*/
 /*-------------------------------------------------------------------------------------------------------------*/
-@media only screen and (min-width: 320px) and (max-width: 720px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   /*Encabezado*/
   header {
     background-color: lightblue;
@@ -406,7 +408,7 @@ body {
     padding: 50px;
   }
   .logo-encabezado {
-    width: 10%;
+    width: 50%;
   }
   .logo {
     width: 100%;
@@ -426,21 +428,23 @@ body {
     color: black;
   }
   /*Menú*/
+  nav {
+    height: 120px;
+  }
   nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: inline-block;
     gap: 5px;
     margin: 10px;
+    font-size: 15px;
   }
   nav ul li {
     list-style: none;
-    font-size: 20px;
     font-weight: 600;
   }
   nav ul li a {
     text-decoration: none;
     color: white;
+    font-size: 20px;
   }
   nav ul li a:hover {
     color: black;
@@ -495,12 +499,16 @@ body {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 310vh;
+    height: 250vh;
   }
   .sec {
     width: 80%;
     margin: auto;
     height: 400px;
+  }
+  .carousel-item {
+    background-position: center center;
+    background-repeat: no-repeat;
   }
   .carousel-caption h3, .carousel-caption p {
     background: #000000c4;
@@ -510,8 +518,8 @@ body {
   .enlaces {
     height: 500px;
     width: 90%;
-    margin-top: 20px;
-    margin-left: 40px;
+    margin-top: 50px;
+    margin-left: 15px;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (1fr)[2];
@@ -529,18 +537,18 @@ body {
   .enlaces a {
     text-decoration: none;
     color: white;
-    font-size: 8px;
-    font-weight: 600;
     text-align: center;
   }
   .enlaces a h3 {
     background: #000000c4;
     -webkit-box-shadow: -3px 0 0 0 #000000c4, 10px 0 0 0 #000000c4;
             box-shadow: -3px 0 0 0 #000000c4, 10px 0 0 0 #000000c4;
+    font-size: 20px;
+    font-weight: 600;
   }
   .enlaces a img {
     height: 200px;
-    width: 80%;
+    width: 100%;
   }
   .enlaces--e1:hover, .enlaces--e2:hover, .enlaces--e3:hover, .enlaces--e4:hover, .enlaces--e5:hover, .enlaces--e6:hover {
     -webkit-transform: scale(1.2);
@@ -551,7 +559,10 @@ body {
     background-image: url(img/Court.jpg);
     background-size: cover;
     background-position: center;
-    height: 400vh;
+    height: 450vh;
+  }
+  .noticias h2 {
+    font-size: 20px;
   }
   .noticias2 {
     text-align: center;
@@ -566,7 +577,7 @@ body {
     grid-row-gap: 2%;
   }
   .noticias a {
-    width: 100%;
+    width: 80%;
     height: 300px;
     text-decoration: none;
     color: white;
@@ -580,8 +591,8 @@ body {
     font-size: 15px;
   }
   .noticias a img {
-    width: 100%;
-    height: 150px;
+    width: 80%;
+    height: 165px;
   }
   .n1:hover, .n2:hover, .n3:hover, .n4:hover, .n5:hover, .n6:hover {
     -webkit-transform: scale(1.05);
@@ -592,13 +603,12 @@ body {
     background-image: url(img/Tienda.jpg);
     background-size: cover;
     background-position: center;
-    height: 370vh;
+    height: 385vh;
   }
-  .tienda h3 {
-    font-size: 30px;
+  .tienda h2 {
+    font-size: 20px;
     font-weight: 600;
     text-align: center;
-    margin-top: 20px;
   }
   .productos {
     height: 100%;
@@ -639,14 +649,14 @@ body {
     background-size: cover;
     background-position: center;
   }
-  .podcast h3 {
+  .podcast h2 {
     text-align: center;
-    font-size: 35px;
+    font-size: 20px;
     font-weight: 600;
     margin: auto;
     padding-top: 25px;
   }
-  .podcast h3 a {
+  .podcast h2 a {
     text-decoration: none;
     color: white;
   }
@@ -655,7 +665,10 @@ body {
     width: 70%;
     margin: 20px auto;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 15px;
+  }
+  .final {
+    text-align: center;
   }
   /*CONTACTO*/
   .contacto {
@@ -664,8 +677,322 @@ body {
     background-size: cover;
     background-position: center;
   }
+  .contacto h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin: auto;
+    padding-top: 25px;
+  }
   .formulario__textarea {
+    width: 90%;
+    background-color: lightblue;
+  }
+  .btn-primary {
+    background-color: lightblue;
+  }
+  .btn-primary:hover {
+    background-color: blue;
+  }
+}
+
+/*-------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  /*Encabezado*/
+  header {
+    background-color: lightblue;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 150px;
+    padding: 50px;
+  }
+  .logo-encabezado {
+    width: 50%;
+  }
+  .logo {
     width: 100%;
+    margin-bottom: 20px;
+  }
+  /*Título*/
+  h1 {
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+  }
+  h1 a {
+    text-decoration: none;
+    color: white;
+  }
+  h1 a:hover {
+    color: black;
+  }
+  /*Menú*/
+  nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 30px;
+    margin: 10px;
+  }
+  nav ul li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  nav ul li a:hover {
+    color: black;
+  }
+  .activo {
+    color: #658DE3;
+  }
+  /*Main*/
+  main {
+    height: 200vh;
+    width: 100%;
+  }
+  /*Pie de página*/
+  footer {
+    height: 120px;
+    width: 100%;
+    padding: 20px;
+    background-color: lightblue;
+    text-align: center;
+    letter-spacing: 5px;
+  }
+  footer a {
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+  }
+  footer a i {
+    font-size: 35px;
+    color: white;
+  }
+  footer a:hover {
+    color: #658DE3;
+  }
+  .whatsapp {
+    height: 45px;
+    width: 45px;
+    font-size: 25px;
+    background-color: lightblue;
+    color: white;
+    border: 3px solid white;
+    bottom: 30px;
+    right: 50px;
+    position: fixed;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-box-shadow: 2px 2px 10px grey;
+            box-shadow: 2px 2px 10px grey;
+  }
+  /*INICIO*/
+  .home {
+    background-image: url(img/Fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150vh;
+  }
+  .sec {
+    width: 80%;
+    margin: auto;
+    height: 400px;
+  }
+  .carousel-item {
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .carousel-caption h3, .carousel-caption p {
+    background: #000000c4;
+    -webkit-box-shadow: -5px 0 0 0 #000000c4, 10px 0 0 0 #000000c4;
+            box-shadow: -5px 0 0 0 #000000c4, 10px 0 0 0 #000000c4;
+  }
+  .enlaces {
+    height: 100px;
+    width: 90%;
+    margin-top: 150px;
+    margin-left: 35px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: repeat 3, 1fr;
+        grid-template-rows: repeat 3, 1fr;
+    grid-column-gap: 4%;
+    grid-row-gap: 10%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+  }
+  .enlaces a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  }
+  .enlaces a h3 {
+    background: #000000c4;
+    -webkit-box-shadow: -3px 0 0 0 #000000c4, 10px 0 0 0 #000000c4;
+            box-shadow: -3px 0 0 0 #000000c4, 10px 0 0 0 #000000c4;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .enlaces a img {
+    height: 200px;
+    width: 100%;
+  }
+  .enlaces--e1:hover, .enlaces--e2:hover, .enlaces--e3:hover, .enlaces--e4:hover, .enlaces--e5:hover, .enlaces--e6:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  /*NOTICIAS*/
+  .noticias {
+    background-image: url(img/Court.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250vh;
+  }
+  .noticias h2 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .noticias2 {
+    text-align: center;
+    display: -ms-grid;
+    display: grid;
+    margin: auto;
+    margin-top: 40px;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: (1fr)[5];
+        grid-template-rows: repeat(5, 1fr);
+  }
+  .noticias a {
+    width: 80%;
+    height: 300px;
+    text-decoration: none;
+    color: white;
+    margin: auto;
+  }
+  .noticias a h3 {
+    background: #000000c4;
+    -webkit-box-shadow: -10px 0 0 0 #000000c4, 10px 0 0 0 #000000c4;
+            box-shadow: -10px 0 0 0 #000000c4, 10px 0 0 0 #000000c4;
+    display: inline-block;
+    font-size: 15px;
+  }
+  .noticias a img {
+    width: 80%;
+    height: 165px;
+  }
+  .n1:hover, .n2:hover, .n3:hover, .n4:hover, .n5:hover, .n6:hover {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  /*TIENDA*/
+  .tienda {
+    background-image: url(img/Tienda.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 385vh;
+  }
+  .tienda h2 {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .productos {
+    height: 100%;
+    padding: 5px;
+    margin-top: 20px;
+    justify-items: center;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: (1fr)[9];
+        grid-template-rows: repeat(9, 1fr);
+  }
+  .productos a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  }
+  .productos a img {
+    height: 350px;
+    margin: auto;
+  }
+  .productos a h3 {
+    background: #000000c4;
+    -webkit-box-shadow: -10px 0 0 0 #000000c4, 10px 0 0 0 #000000c4;
+            box-shadow: -10px 0 0 0 #000000c4, 10px 0 0 0 #000000c4;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .p1:hover, .p2:hover, .p3:hover, .p4:hover, .p5:hover, .p6:hover, .p7:hover, .p8:hover, .p9:hover {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  /*PODCAST*/
+  .podcast {
+    background-image: url(img/Podcast-2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 130vh;
+  }
+  .podcast h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin: auto;
+    padding-top: 25px;
+  }
+  .podcast h2 a {
+    text-decoration: none;
+    color: white;
+  }
+  .description {
+    text-align: justify;
+    width: 70%;
+    margin: 20px auto;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .final {
+    text-align: center;
+  }
+  /*CONTACTO*/
+  .contacto {
+    height: 100vh;
+    background-image: url(img/Contacto2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .contacto h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin: auto;
+    padding-top: 10px;
+  }
+  .formulario__textarea {
+    width: 90%;
     background-color: lightblue;
   }
   .btn-primary {
